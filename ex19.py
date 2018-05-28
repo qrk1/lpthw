@@ -1,5 +1,10 @@
+# Defines the function "cheese_and_crackers" and passes print_two
+# parameters, cheese_count and boxes_of_crackers.
 def cheese_and_crackers (cheese_count, boxes_of_crackers):
+    # Prints the "You have XXX cheese" XXX is the the value
+    # of cheese_count passed into the function.
     print(f"You have {cheese_count} cheese!")
+    # 
     print(f"You ahve {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
     print("Get a blanket.\n")
