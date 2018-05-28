@@ -9,7 +9,8 @@ def cheese_and_crackers (cheese_count, boxes_of_crackers):
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     # Prints "Man that's enough for a party!"
     print("Man that's enough for a party!")
-    print("Get a blanket.\n")
+    # Prints "Get a blanket." but will not carraige return.
+    print("Get a blanket.")
 
 print("We can just give the function numbers directly:")
 cheese_and_crackers (20, 30)
