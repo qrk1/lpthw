@@ -1,3 +1,4 @@
+# Imports the argv function from the sys module
 from sys import argv
 
 script, input_file = argv
