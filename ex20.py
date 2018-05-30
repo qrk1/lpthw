@@ -26,7 +26,8 @@ def rewind(f):
 # parameters, line_count and f.
 def print_a_line(line_count, f):
     # Will print the line_count and will read a line
-    # in the file f (will go to EOF, since nothing is in
+    # in the file f (will go to EOF, since nothing is in the (),
+    # readline will go to the EOL???.
     print(line_count, f.readline())
 
 current_file = open(input_file)
